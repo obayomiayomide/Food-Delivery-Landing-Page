@@ -1,0 +1,32 @@
+.phones {
+  width: 600px;
+  height: 700px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: -170px;
+  overflow: hidden;
+}
+
+.phone1 {
+  width: 375px;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+  margin-left: 35px;
+  z-index: 20;
+}
+
+.phone2 {
+  width: 375px;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+  margin-top: -525px;
+  margin-left: 275px;
+  z-index: 10;
+}
+
+.img {
+  width: 650px;
+  margin-left: -180px;
+}

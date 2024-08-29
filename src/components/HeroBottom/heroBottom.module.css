@@ -1,0 +1,29 @@
+.hero {
+  width: 100%;
+  height: 400px;
+  background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url("/Hero-image-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+  padding-top: 100px;
+}
+
+.buttonContainer {
+  max-width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 25px 50px;
+}
+
+.textContent {
+  text-align: center;
+  color: white;
+}
+
+.textContent > h2 {
+  font-size: 40px;
+}

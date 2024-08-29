@@ -1,0 +1,20 @@
+.appInfo {
+  max-width: 600px;
+  flex: 1;
+}
+
+.appInfo > h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #252b42;
+  margin: 0;
+  letter-spacing: 0.2px;
+}
+
+.appInfo > p {
+  color: #737373;
+}
+
+.appInfo > p > strong {
+  color: #fa4a0c;
+}
