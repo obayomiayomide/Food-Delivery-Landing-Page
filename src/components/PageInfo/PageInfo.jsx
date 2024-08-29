@@ -19,6 +19,7 @@ function PageInfo() {
         />
       </div>
       <div style={{ gap: "0" }} className={styles.appInfo}>
+        <AppInfoImage styling={{ order: "1" }} src={exploreImage} />
         <AppInfo
           infoTitle="Explore varieties"
           infoHead="Shop for your favorite meals as e dey hot"
@@ -28,7 +29,6 @@ function PageInfo() {
             marginLeft: "120px",
           }}
         />
-        <AppInfoImage src={exploreImage} />
       </div>
       <div className={styles.appInfo}>
         <AppInfoImage src={checkoutImage} />

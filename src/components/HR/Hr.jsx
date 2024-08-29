@@ -7,7 +7,7 @@ function Hr() {
         width: "60%",
         marginTop: "50px",
         marginBottom: "50px",
-        color: "rgb(204, 204, 204)",
+        borderColor: "rgb(204, 204, 204)",
       }}
     />
   );
