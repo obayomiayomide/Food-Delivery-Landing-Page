@@ -1,6 +1,7 @@
 .appInfo {
   max-width: 600px;
   flex: 1;
+  margin-left: 30px;
 }
 
 .appInfo > h2 {
@@ -19,12 +20,13 @@
   color: #fa4a0c;
 }
 
-@media (min-width: 325px) and (max-width: 425px) {
+@media (min-width: 325px) and (max-width: 767px) {
   .appInfo {
     max-width: 600px;
     flex: 1;
     order: 0;
     text-align: center;
+    margin: 0;
   }
 
   .appInfo > h2 {
@@ -35,8 +37,14 @@
     letter-spacing: 0.2px;
   }
 
-  .appInfo > p {
+  .appInfo > div > p {
     color: #737373;
+    max-width: 90%;
+    margin: 5%;
+  }
+
+  .appInfo > div {
+    margin: 0 auto;
   }
 
   .appInfo > p > strong {

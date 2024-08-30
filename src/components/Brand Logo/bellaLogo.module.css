@@ -1,0 +1,6 @@
+@media (min-width: 325px) and (max-width: 767px) {
+  .logo {
+    width: 120px;
+    height: auto;
+  }
+}

@@ -1,5 +1,5 @@
 .hero {
-  width: 100%;
+  width: 95%;
   height: 560px;
   background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
     url("/Hero-image.jpg");
@@ -8,6 +8,8 @@
   background-position: center;
   background-color: black;
   padding-top: 40px;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
 }
 
 .contentContainer {
@@ -27,7 +29,7 @@
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  padding: 25px 50px;
+  padding: 0 50px;
 }
 
 .textContent > h1 {
@@ -42,15 +44,15 @@
   color: #f6f6f6;
 }
 
-@media (min-width: 325px) and (max-width: 425px) {
+@media (min-width: 325px) and (max-width: 767px) {
   .hero {
-    width: 100%;
+    width: 95%;
     height: 560px;
     background-image: none;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: rgb(218, 45, 45);
+    background-color: #fafafa;
     padding-top: 40px;
   }
 
@@ -60,13 +62,13 @@
 
   .textContent {
     text-align: center;
-    color: white;
-    max-width: 90%;
+    color: #252b42;
+    max-width: 98%;
     margin: 0 auto;
   }
 
   .buttonContainer {
-    width: 100%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -78,13 +80,14 @@
 
   .textContent > h1 {
     margin: 0;
-    font-family: "Poppins", sans-serif;
-    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 34px;
     font-weight: 700;
     line-height: 40px;
+    letter-spacing: 0.2px;
   }
 
   .textContent > p {
-    color: #f6f6f6;
+    color: #737373;
   }
 }

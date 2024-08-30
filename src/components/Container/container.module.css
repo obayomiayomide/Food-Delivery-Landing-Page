@@ -5,3 +5,13 @@
   margin: 0 auto;
   padding: 25px 50px;
 }
+
+@media (min-width: 325px) and (max-width: 767px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 16px;
+  }
+}

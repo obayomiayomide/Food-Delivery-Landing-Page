@@ -12,16 +12,17 @@ function HeroTop() {
             <p>
               <strong>Food App</strong>
             </p>
-            <h1>
-              Why stay hungry when <br />
-              <span>you can order from Bella Olonje</span>
-            </h1>
+            <h1>Why stay hungry when you can order from Bella Olonje</h1>
             <p>Download the Bella Olonje's food app now on</p>
           </div>
           <div className={styles.buttonContainer}>
             <Button
               buttonText="Playstore"
-              styling={{ backgroundColor: "#FA4A0C", border: "none" }}
+              styling={{
+                backgroundColor: "#FA4A0C",
+                border: "none",
+                color: "white",
+              }}
             />
             <Button buttonText="App store" />
           </div>

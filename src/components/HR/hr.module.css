@@ -2,5 +2,14 @@
   width: 60%;
   margin-top: 50px;
   margin-bottom: 50px;
-  border-color: rgb(204, 204, 204);
+  color: #e4e4e4;
+}
+
+@media (min-width: 325px) and (max-width: 767px) {
+  .hr {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-color: #e4e4e4;
+  }
 }

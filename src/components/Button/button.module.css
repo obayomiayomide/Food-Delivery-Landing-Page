@@ -7,3 +7,15 @@
   font-weight: 700;
   line-height: 36px;
 }
+
+@media (min-width: 325px) and (max-width: 767px) {
+  .button {
+    padding: 16px 50px;
+    color: #fa4a0c;
+    border-radius: 30px;
+    border: 1px solid #fa4a0c;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+}

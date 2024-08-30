@@ -26,7 +26,6 @@ function PageInfo() {
           infoBody="Shop for your favorite meals or drinks and enjoy while doing it."
           styling={{
             maxWidth: "500px",
-            marginLeft: "120px",
           }}
         />
       </div>

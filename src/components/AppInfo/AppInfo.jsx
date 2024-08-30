@@ -8,7 +8,9 @@ function AppInfo({ infoTitle, infoHead, infoBody, styling }) {
         <strong>{infoTitle}</strong>
       </p>
       <h2>{infoHead}</h2>
-      <p>{infoBody}</p>
+      <div>
+        <p>{infoBody}</p>
+      </div>
     </div>
   );
 }

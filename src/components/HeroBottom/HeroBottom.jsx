@@ -19,6 +19,7 @@ function HeroBottom() {
             buttonText="Playstore"
             styling={{
               backgroundColor: "#FA4A0C",
+              color: "white",
               border: "none",
               fontSize: "16px",
               borderRadius: "7px",
@@ -28,7 +29,12 @@ function HeroBottom() {
           />
           <Button
             buttonText="Appstore"
-            styling={{ fontSize: "16px", borderRadius: "7px" }}
+            styling={{
+              fontSize: "16px",
+              borderRadius: "7px",
+              borderColor: "white",
+              color: "white",
+            }}
           />
         </div>
       </div>
