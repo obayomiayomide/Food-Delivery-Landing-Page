@@ -14,11 +14,39 @@
 .appInfo {
   text-align: left;
   display: flex;
-  gap: 7%;
+  gap: 10%;
   justify-content: center;
   align-items: center;
-  margin-top: 70px;
-  margin-bottom: 70px;
+  margin-top: 100px;
+  margin-bottom: 100px;
   padding-left: 40px;
   padding-right: 40px;
+}
+
+@media (min-width: 325px) and (max-width: 425px) {
+  .pageInfo {
+    text-align: center;
+    width: 100%;
+  }
+
+  .pageInfo > h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    color: #000000;
+    opacity: 0.7;
+  }
+
+  .appInfo {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }

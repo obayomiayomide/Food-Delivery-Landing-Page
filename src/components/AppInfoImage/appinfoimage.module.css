@@ -9,3 +9,18 @@
   width: auto;
   margin-left: -75px;
 }
+
+@media (min-width: 325px) and (max-width: 425px) {
+  .container {
+    height: 500px;
+    width: 400px;
+    overflow: hidden;
+    order: 1;
+  }
+
+  .img {
+    height: 500px;
+    width: auto;
+    margin-left: -75px;
+  }
+}

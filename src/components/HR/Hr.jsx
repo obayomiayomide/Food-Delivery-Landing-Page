@@ -1,16 +1,8 @@
 import React from "react";
+import styles from "./hr.module.css";
 
 function Hr() {
-  return (
-    <hr
-      style={{
-        width: "60%",
-        marginTop: "50px",
-        marginBottom: "50px",
-        borderColor: "rgb(204, 204, 204)",
-      }}
-    />
-  );
+  return <hr className={styles.hr} />;
 }
 
 export default Hr;

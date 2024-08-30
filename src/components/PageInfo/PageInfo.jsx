@@ -18,14 +18,14 @@ function PageInfo() {
           infoBody="An account is created with you email and a desired password"
         />
       </div>
-      <div style={{ gap: "0" }} className={styles.appInfo}>
+      <div className={styles.appInfo}>
         <AppInfoImage styling={{ order: "1" }} src={exploreImage} />
         <AppInfo
           infoTitle="Explore varieties"
           infoHead="Shop for your favorite meals as e dey hot"
           infoBody="Shop for your favorite meals or drinks and enjoy while doing it."
           styling={{
-            maxWidth: "600px",
+            maxWidth: "500px",
             marginLeft: "120px",
           }}
         />

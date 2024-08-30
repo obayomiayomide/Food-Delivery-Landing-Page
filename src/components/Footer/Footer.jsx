@@ -10,7 +10,7 @@ function Footer() {
         <Container>
           <BellaLogo />
 
-          <div>Copyright 2020</div>
+          <div>Copyright 2020 Bella Olonje.com</div>
         </Container>
       </div>
     </>
