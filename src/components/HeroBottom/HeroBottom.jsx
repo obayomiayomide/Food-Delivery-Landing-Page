@@ -23,8 +23,8 @@ function HeroBottom() {
               border: "none",
               fontSize: "16px",
               borderRadius: "7px",
-              paddingRight: "30px",
-              paddingLeft: "30px",
+              paddingRight: "25px",
+              paddingLeft: "25px",
             }}
           />
           <Button
@@ -34,6 +34,8 @@ function HeroBottom() {
               borderRadius: "7px",
               borderColor: "white",
               color: "white",
+              paddingRight: "30px",
+              paddingLeft: "30px",
             }}
           />
         </div>
