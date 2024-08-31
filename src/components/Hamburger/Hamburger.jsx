@@ -1,14 +1,12 @@
 import React from "react";
 import styles from "./hamburger.module.css";
-import { useState } from "react";
 
-function Hamburger({ isHamChanged, setIsHamChanged }) {
+function Hamburger({ isMenu, setIsMenu }) {
   return (
     <div
       className={styles.ham}
       onClick={() => {
-        setIsHamChanged(!isHamChanged);
-        console.log("object");
+        setIsMenu(!isMenu);
       }}
     >
       <svg
