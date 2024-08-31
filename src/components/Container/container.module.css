@@ -10,7 +10,7 @@
   .container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
     margin: 0 auto;
     padding: 16px;
   }
