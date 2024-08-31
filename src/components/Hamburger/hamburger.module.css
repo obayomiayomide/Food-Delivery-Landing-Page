@@ -1,3 +1,7 @@
+.ham {
+  display: none;
+}
+
 @media (min-width: 325px) and (max-width: 767px) {
   .ham {
     height: 16px;
@@ -6,31 +10,5 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 10px;
-  }
-
-  .hamburger {
-    background-color: #737373;
-    min-width: 20px;
-    min-width: 20px;
-    height: 3px;
-    border-radius: 3px;
-  }
-
-  .ham.active {
-    display: block;
-  }
-
-  .ham.active .hamburger:nth-child(1) {
-    transform: translate(-50%, -50%) rotate(45deg);
-    top: 50%;
-  }
-
-  .ham.active .hamburger:nth-child(2) {
-    display: none;
-  }
-
-  .ham.active .hamburger:nth-child(1) {
-    transform: translate(-50%, -50%) rotate(-45deg);
-    top: 50%;
   }
 }

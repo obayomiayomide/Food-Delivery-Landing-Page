@@ -24,6 +24,7 @@ a {
 @media (min-width: 325px) and (max-width: 767px) {
   .link {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     align-items: center;
     font-family: "Montserrat", sans-serif;
@@ -37,9 +38,5 @@ a {
   a {
     color: #252b42;
     text-decoration: none;
-  }
-
-  .hide {
-    display: none;
   }
 }

@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./pagesLink.module.css";
 import { NavLink } from "react-router-dom";
 
-function PagesLink() {
+function PagesLink({ styling }) {
   const navStyle = ({ isActive }) => {
     return {
       textDecoration: isActive ? "none" : "",
@@ -12,7 +12,7 @@ function PagesLink() {
 
   return (
     <>
-      <div className={`${styles.link} ${styles.hide}`}>
+      <div style={styling} className={`${styles.link}`}>
         <NavLink style={navStyle} to="/">
           <div>Home</div>
         </NavLink>
