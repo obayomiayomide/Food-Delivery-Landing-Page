@@ -48,7 +48,7 @@
 @media (min-width: 325px) and (max-width: 767px) {
   .hero {
     width: 95%;
-    height: 600px;
+    height: 700px;
     background-image: none;
     background-repeat: no-repeat;
     background-size: cover;

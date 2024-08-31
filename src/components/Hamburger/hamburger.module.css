@@ -15,4 +15,22 @@
     height: 3px;
     border-radius: 3px;
   }
+
+  .ham.active {
+    display: block;
+  }
+
+  .ham.active .hamburger:nth-child(1) {
+    transform: translate(-50%, -50%) rotate(45deg);
+    top: 50%;
+  }
+
+  .ham.active .hamburger:nth-child(2) {
+    display: none;
+  }
+
+  .ham.active .hamburger:nth-child(1) {
+    transform: translate(-50%, -50%) rotate(-45deg);
+    top: 50%;
+  }
 }
