@@ -1,4 +1,5 @@
 import React from "react";
+import Nav from "../Nav/Nav";
 
 function Faq() {
   return (
@@ -9,6 +10,7 @@ function Faq() {
           fontFamily: "Poppins, sans-serif",
           color: "#FA4A0C",
           marginTop: "152px",
+          textAlign: "center",
         }}
       >
         This is the <strong>Faq</strong> page
