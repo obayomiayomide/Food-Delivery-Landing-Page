@@ -92,4 +92,8 @@
   .textContent > p {
     color: #737373;
   }
+
+  .textContent > .downloadInfo {
+    font-size: 24px;
+  }
 }

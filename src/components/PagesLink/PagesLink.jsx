@@ -1,14 +1,14 @@
 import React from "react";
 import styles from "./pagesLink.module.css";
 
-function PagesLink() {
+function PagesLink({ homeLink, productLink, faqLink, contactlink }) {
   return (
     <>
       <div className={`${styles.link} ${styles.hide}`}>
-        <div>Home</div>
-        <div>Product</div>
-        <div>Faq</div>
-        <div>Contact</div>
+        <div style={homeLink}>Home</div>
+        <div style={productLink}>Product</div>
+        <div style={faqLink}>Faq</div>
+        <div style={contactlink}>Contact</div>
       </div>
     </>
   );

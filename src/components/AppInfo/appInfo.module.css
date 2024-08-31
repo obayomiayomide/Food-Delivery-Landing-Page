@@ -41,6 +41,8 @@
     color: #737373;
     max-width: 90%;
     margin: 5%;
+    font-size: 24px;
+    line-height: 38px;
   }
 
   .appInfo > div {
@@ -49,5 +51,6 @@
 
   .appInfo > p > strong {
     color: #fa4a0c;
+    font-size: 24px;
   }
 }

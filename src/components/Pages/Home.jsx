@@ -10,7 +10,7 @@ import Hr from "../HR/Hr";
 function Home() {
   return (
     <>
-      <Nav />
+      <Nav homeLink={{ color: "#FA4A0C" }} />
       <HeroTop />
       <Phones />
       <Hr />

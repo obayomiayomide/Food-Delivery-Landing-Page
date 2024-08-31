@@ -13,7 +13,9 @@ function HeroTop() {
               <strong>Food App</strong>
             </p>
             <h1>Why stay hungry when you can order from Bella Olonje</h1>
-            <p>Download the Bella Olonje's food app now on</p>
+            <p className={styles.downloadInfo}>
+              Download the Bella Olonje's food app now on
+            </p>
           </div>
           <div className={styles.buttonContainer}>
             <Button
