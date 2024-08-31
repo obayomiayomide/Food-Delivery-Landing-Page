@@ -24,7 +24,7 @@ function HeroTop() {
                 color: "white",
               }}
             />
-            <Button buttonText="App store" />
+            <Button buttonText="Appstore" />
           </div>
         </div>
       </div>

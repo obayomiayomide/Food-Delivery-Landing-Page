@@ -1,5 +1,5 @@
 .hero {
-  width: 100%;
+  width: 95%;
   height: 400px;
   background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
     url("/Hero-image-2.jpg");
@@ -8,6 +8,8 @@
   background-position: center;
   background-color: black;
   padding-top: 100px;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
 }
 
 .buttonContainer {
@@ -26,4 +28,35 @@
 
 .textContent > h2 {
   font-size: 40px;
+}
+
+@media (min-width: 325px) and (max-width: 767px) {
+  .hero {
+    width: 95%;
+    height: 400px;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #252b42;
+    padding-top: 100px;
+  }
+
+  .buttonContainer {
+    max-width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 25px 50px;
+  }
+
+  .textContent {
+    text-align: center;
+    color: white;
+  }
+
+  .textContent > h2 {
+    font-size: 40px;
+  }
 }

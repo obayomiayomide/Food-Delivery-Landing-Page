@@ -8,6 +8,7 @@
   height: 500px;
   width: auto;
   margin-left: -75px;
+  filter: drop-shadow(20px 10px 25px rgba(0, 0, 0, 0.2));
 }
 
 @media (min-width: 325px) and (max-width: 767px) {
@@ -23,5 +24,6 @@
     height: 500px;
     width: auto;
     margin-left: -130px;
+    filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.2));
   }
 }

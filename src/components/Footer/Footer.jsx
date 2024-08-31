@@ -1,17 +1,15 @@
 import React from "react";
 import BellaLogo from "../Brand Logo/BellaLogo";
-import Container from "../Container/Container";
 import styles from "./footer.module.css";
+import Socials from "../Socials/Socials";
 
 function Footer() {
   return (
     <>
       <div className={styles.footer}>
-        <Container>
-          <BellaLogo />
-
-          <div>Copyright 2020 Bella Olonje.com</div>
-        </Container>
+        <BellaLogo />
+        <Socials />
+        <div>Copyright 2020 Bella Olonje.com</div>
       </div>
     </>
   );
