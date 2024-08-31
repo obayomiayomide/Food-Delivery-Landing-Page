@@ -1,14 +1,33 @@
 import React from "react";
 import styles from "./pagesLink.module.css";
+import { NavLink } from "react-router-dom";
 
-function PagesLink({ homeLink, productLink, faqLink, contactlink }) {
+function PagesLink() {
+  const navStyle = ({ isActive }) => {
+    return {
+      textDecoration: isActive ? "none" : "",
+      color: isActive ? "#fa4a0c" : "",
+    };
+  };
+
   return (
     <>
       <div className={`${styles.link} ${styles.hide}`}>
-        <div style={homeLink}>Home</div>
-        <div style={productLink}>Product</div>
-        <div style={faqLink}>Faq</div>
-        <div style={contactlink}>Contact</div>
+        <NavLink style={navStyle} to="/">
+          <div>Home</div>
+        </NavLink>
+
+        <NavLink style={navStyle} to="/product">
+          <div>Product</div>
+        </NavLink>
+
+        <NavLink style={navStyle} to="/faq">
+          <div>Faq</div>
+        </NavLink>
+
+        <NavLink style={navStyle} to="/contact">
+          <div>Contact</div>
+        </NavLink>
       </div>
     </>
   );

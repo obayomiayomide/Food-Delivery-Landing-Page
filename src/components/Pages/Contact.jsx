@@ -4,7 +4,7 @@ import Nav from "../Nav/Nav";
 function Contact() {
   return (
     <>
-      <Nav contactLink={{ color: "#FA4A0C" }} />
+      <Nav />
       <h1
         style={{
           fontFamily: "Poppins, sans-serif",

@@ -1,10 +1,10 @@
 import React from "react";
 import Nav from "../Nav/Nav";
 
-function About() {
+function Product() {
   return (
     <>
-      <Nav aboutLink={{ color: "#FA4A0C" }} />
+      <Nav />
       <h1
         style={{
           fontFamily: "Poppins, sans-serif",
@@ -13,10 +13,10 @@ function About() {
           textAlign: "center",
         }}
       >
-        This is the <strong>About</strong> page
+        This is the <strong>Product</strong> page
       </h1>
     </>
   );
 }
 
-export default About;
+export default Product;
